@@ -230,14 +230,25 @@ line-height: 36px;
 
 .support-container{
 
-  background-image: url(./assets/handshake.jpg);
+  background-image: url(./assets/handshake.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  
    
     padding: 50px 120px;
     margin-top: 50px;
     text-align: center;
+
+    background-blend-mode: overlay;
+    border-radius: 15px;
+
+
+
+
+
+
+
 }
 .support-container h2{
     color: white;
