@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+
+}
+h1,h2,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    color: #0D1321;
+    
+}
+a{
+    text-decoration: none;
+
+}
+
+p{
+    
+Font-weight:400;
+Font-size:16px;
+color: #0D1321;
+
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+
+/* header style */
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+   gap: 500px;
+}
+
+.header-resume a{
+    color:#0D1321;
+    border: 1px solid black;
+    padding: 12px 15px;
+    border-radius: 5px;
+    
+
+}
+
+
+
+/* hero section style */
+
+.hero-section{
+    background-image: url(./assets/Hero-bg.png);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-container{
+    max-width: 999px;
+    margin: auto;
+    text-align: center;
+}
+.hero-container h1{
+   
+Font-weight: 800;
+Font-size: 48px;
+
+
+}
+.hero-container a{
+    color:white;
+    background-color: #0D1321;
+    padding: 21px 25px;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: inline-block;
+   
+    
+    
+
+
+
+
+}
+
+
+/* development section style  */
+
+
+.development-main-container{
+    background-color: #0D132105;
+    margin-top: 80px;
+}
+.development-container{
+    text-align: center;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 946px;
+}
+.development-title h1{
+   
+font-size: 32px;
+font-weight: 800;
+}
+
+.development-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-top: 52px;
+    gap: 40px;
+    border-radius: 15px;
+    
+}
+.development-card h3{
+    
+Font-weight: 700;
+Font-size: 24px;
+line-height: 36px;
+
+}
+
+.development-card-left{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.development-card-left a{
+    color: #0D1321;
+    border: 1px solid black;
+    padding: 12px 15px;
+    border-radius: 5px;
+    
+}
+
+
+/* insparation style */
+.my-ins{
+    margin-top: 80px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.my-ins h2{
+    font-size: 32px;
+    font-weight: 800px;
+}
+.my-ins p{
+    padding: 30px 150px !important;
+}
+.video-section{
+
+    margin: auto;
+    text-align: center;
+    padding: 30px 0px;
+    
+    border: 1px solid #0D132133;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* target section style */
+
+.target-container{
+
+    margin-top: 150px;
+
+}
+.target-title{
+    text-align: center;
+}
+
+.target-all-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 60px;
+
+
+}
+
+.target-card{
+    width: 360px;
+    background-color: #004CE80D;
+    padding: 40px;
+   
+
+}
+.target-card h2{
+    font-size: 24px;
+    font-weight: 800px;
+    padding: 20px 0px 0px 0px;
+}
+.target-card a{
+    text-decoration: underline;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 800;
+   
+}
+.target-all-cards :first-child{
+    background-color: #FF4C1E0D;
+}
+.target-all-cards :last-child{
+    background-color: #FFDF000D;
+}
+
+
+
+
+/* support section style  */
+
+.support-container{
+
+  background-image: url(./assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+   
+    padding: 50px 120px;
+    margin-top: 50px;
+    text-align: center;
+}
+.support-container h2{
+    color: white;
+    font-size: 26px;
+    font-weight: 600px;
+}
+.support-container p{
+    color: #FFFFFF;
+}
+.forms input[type="text"]{
+    width: 530px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #0D132126;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.forms input[type="submit"] {
+    width: 150px;
+   
+    border-radius: 10px;
+    border: 1px solid #0D132126;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    background-color:WHITE;
+    color: #0D1321;
+    cursor: pointer;
+}
+
+
+/* footer style start */
+
+
+footer{
+    background-color: #0D132108;
+    padding: 40px 0px;
+    margin-top: 100px;
+}
+
+.footer-left p{
+    font-weight: 600;
+    
+
+}
